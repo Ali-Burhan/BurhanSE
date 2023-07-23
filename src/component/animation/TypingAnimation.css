@@ -1,0 +1,15 @@
+.typing-animation {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .typing-text {
+    border-right: 0.15em solid #000; /* This creates the blinking caret effect */
+    animation: blink-caret 0.75s step-end ;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #fff; }
+  }
+  
